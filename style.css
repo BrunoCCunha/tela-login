@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Fira Code', monospace;
+    background-image: linear-gradient(to bottom, blue, #061296a8 );
+}
+
+.tela{
+    display: grid;
+    border: 1px solid black;
+    width: 320px;
+    height: 310px;
+    box-shadow: 1px 2px 2px #0000009b;
+    border-radius: 10px;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 78px;
+    background-image: linear-gradient(to right, blue, #061296a8);
+}
+
+h1{
+    color: white;
+    font-size: 2.1em;
+    text-shadow: 1px 1px 3px #000000d9;
+}
+
+.principal{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input{
+    display: grid;
+    place-items: center;
+}
+
+.usuario{
+    background-color: #8080803b;
+    font-size: 1.1em;
+    width: 200px;
+    margin: 30px 20px 10px 20px;
+    padding: 2px;
+}
+
+.senha{
+    background-color: #8080803b;
+    font-size: 1.1em;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+    padding: 2px;
+}
+
+p{
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+    transition: .5s;
+}
+
+footer{
+    display: grid;
+    place-items: center;
+}
+
+button{
+    font-size: 1.2em;
+    /* padding: 5px; */
+    color: white;
+    width: 70%;
+    border-radius: 25px;
+    height: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, blue, #061296a8);
+    text-shadow: 1px 1px 3px #000000d9;
+}
