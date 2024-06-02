@@ -22,7 +22,7 @@ body{
     width: 320px;
     height: 310px;
     box-shadow: 1px 2px 2px #0000009b;
-    border-radius: 10px;
+    
 }
 
 header{
@@ -42,7 +42,7 @@ h2{
 .principal{
     
     background-color: white;
-    border-radius: 10px;
+    
 }
 
 aside{display: grid;
